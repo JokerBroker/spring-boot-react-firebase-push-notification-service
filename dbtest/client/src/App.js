@@ -17,7 +17,7 @@ function App() {
       // Generate Token
       const token = await getToken(messaging, {
         vapidKey:
-          "BDmxT6-AFxoN4ZmlNMYqqM8-vgtQdcWfhXutHzXW0mPweAu4gSS0d9uVEBFyms183PuR-nm8YHaIdufVfDVmJFs",
+          "",
       });
       console.log("Token Gen", token);
       setTokenId(token)
